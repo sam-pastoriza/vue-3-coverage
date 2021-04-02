@@ -1,0 +1,4 @@
+/dist/
+/**/*.vue
+/vue.config.js
+
