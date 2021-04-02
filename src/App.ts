@@ -1,12 +1,21 @@
-// import { Options, Vue } from 'vue-class-component';
-import Component from 'vue-class-component';
-import Vue from 'vue';
+import { Options, Vue } from 'vue-class-component';
+// import Component from 'vue-class-component';
+// import Vue from 'vue';
+import Button from './components/button/button.component.vue';
 
-// @Options({})
-@Component
+@Options({
+    components: {
+        Button,
+    },
+})
+// @Component({
+//     components: {
+//         Button,
+//     },
+// })
 export default class App extends Vue {
-    title = '';
-    setTitle() {
-        this.title = 'Some title';
+    text = '';
+    setText() {
+        this.text = 'Some text';
     }
 }

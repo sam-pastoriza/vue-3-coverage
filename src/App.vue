@@ -2,7 +2,7 @@
 
 <template>
     <div id="app">
-        Text information
-        <button>{{ title }}</button>
+        <div class="text">{{ text }}</div>
+        <Button></Button>
     </div>
 </template>
