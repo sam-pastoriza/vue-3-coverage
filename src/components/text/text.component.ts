@@ -1,9 +1,9 @@
-import { Options, Vue } from 'vue-class-component';
-// import Component from 'vue-class-component';
-// import Vue from 'vue';
+// import { Options, Vue } from 'vue-class-component';
+import Component from 'vue-class-component';
+import Vue from 'vue';
 
-@Options({})
-// @Component
+// @Options({})
+@Component
 export default class Text extends Vue {
     text = '';
     setText() {
